@@ -1,4 +1,4 @@
 #!/bin/bash
-chmod a+x */
+find . -maxdepth 1 -type d ! -name '.' -exec chmod 711 {} \;
 
 
