@@ -1,8 +1,4 @@
 #!/bin/bash
+chmod a+x */
 
-for item in *; do
-    if [ -d "$item" ]; then
-        chmod a+x "$item"
-    fi
-done
 
